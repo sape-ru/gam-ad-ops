@@ -1,0 +1,26 @@
+sape:
+  login: INSERT_SAPE_API_LOGIN
+  token: INSERT_SAPE_API_TOKEN
+  site_id: INSERT_SAPE_SITE_ID
+
+ad_manager:
+  application_name: INSERT_APPLICATION_NAME_HERE
+  network_code: INSERT_NETWORK_CODE_HERE
+
+app:
+  order_name: INSERT_GAM_ORDER_NAME
+  user_email: INSERT_GAM_USER_EMAIL
+  advertiser_name: INSERT_GAM_ADVERTISER_NAME
+  targeted_placement_names: INSERT_GAM_PLACEMENT_NAMES
+  targeted_ad_unit_names: INSERT_GAM_AD_UNIT_NAMES
+  sizes:
+    - width: INSERT_SIZE_WIDTH
+      height: INSERT_SIZE_HEIGHT
+  targeting:
+    bidder: "bidder"
+    price: "cpm"
+  bidder: "rtb_sape"
+  price_buckets:
+    min: 5
+    max: 20
+    increment: 5
