@@ -117,7 +117,7 @@ class Sape
      */
     public function getHtmlCode(int $placeId): string
     {
-        return '<script async="async" src="//cdn-rtb.sape.rurtb-b/js/' . sprintf('%03d', $this->siteId % 1000) . '/2/' . $this->siteId . '.js" type="text/javascript"></script>' . PHP_EOL . '<div id="SRTB_' . $placeId . '"></div>';
+        return '<script async="async" src="//cdn-rtb.sape.ru/rtb-b/js/' . sprintf('%03d', $this->siteId % 1000) . '/2/' . $this->siteId . '.js" type="text/javascript"></script>' . PHP_EOL . '<div id="SRTB_' . $placeId . '"></div>';
     }
 
     /**
